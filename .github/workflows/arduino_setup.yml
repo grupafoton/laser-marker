@@ -24,3 +24,11 @@ jobs:
 
     - name: Setup Arduino CLI
       uses: arduino/setup-arduino-cli@v1.0.0
+    
+    - name: Build Arduino project
+      run: |
+        arduino-cli config init
+        arduino-cli core update-index
+        arduino-cli core install arduino:samd
+        arduino-cli compile --fqbn arduino:samd:mkr1000 ./arduino/stepper
+        
