@@ -1,4 +1,0 @@
-/*
-I suggest remove this comment when we start writing code.
-I put it just to present pull request function.
-*/
