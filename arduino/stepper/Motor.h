@@ -18,7 +18,7 @@ class Motor
     void moveNSteps (int numberOfSteps);
     void moveAngle(float angle);
     void movePermanently();
-    void moveSpot(float xDisplacement, float yDisplacement);
+    void moveSpot(float displacement);
   private:
     int _directionPin;
     int _stepPin;
