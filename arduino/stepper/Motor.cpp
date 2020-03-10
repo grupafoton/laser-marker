@@ -17,10 +17,9 @@ void Motor::setScreenDistance(float screenDistance)
   _screenDistance = screenDistance;
 }
 
-void Motor::moveNSteps(float alfa)
+void Motor::moveNSteps(int numberOfSteps)
 {
-  int numberOfSteps = alfa/_angularResolution; //approximate steps number to achieve desired angle
-  MoveNSteps(numberOfSteps);
+  //TO DO
 }
 
 void Motor::moveAngle(float alfa)
