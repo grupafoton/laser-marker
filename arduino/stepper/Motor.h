@@ -24,6 +24,7 @@ class Motor
     int _stepPin;
     float _angularResolution;
     float _delayPerStep;
+    float _screenDistance;
 };
 
 #endif
