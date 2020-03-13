@@ -1,8 +1,8 @@
 name: Build LaTeX document
-# on: [push]
-on:
-  push:
-    paths: sample.tex
+on: [push]
+#on:
+ # push:
+  #  paths: sample.tex
 #    branches-ignore:
 #      - '**'
 jobs:
