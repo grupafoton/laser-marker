@@ -3,6 +3,7 @@ name: Build LaTeX document
 on:
   push:
     branches: [master]
+    paths: ./sample.tex
 #    branches-ignore:
 #      - '**'
 jobs:
