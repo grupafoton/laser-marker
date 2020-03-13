@@ -16,3 +16,8 @@ jobs:
         uses: xu-cheng/latex-action@master
         with:
           root_file: sample.tex
+      - name: Upload output file
+        uses: actions/upload-artifact@v1
+        with:
+          name: sample
+          path: ./sample.tex
